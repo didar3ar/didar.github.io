@@ -1,0 +1,36 @@
+*{margin: 0;padding: 0}
+.main{width: 870;margin: 0 auto;font-family:verdana}
+.header_area{padding-top:20px}
+..header_area img{}
+.intro_area{padding-top:10px;margin-bottom:30px}
+.intro_image{width:495px;float: left;padding-right: 25px}
+.intro_image img{width: 100%;}
+.intro_text{width:350px;float:left}
+.intro_text h1{margin:0px;font-size:25px;color:#2a95cd;font-weight:normal}
+.intro_text p{}
+.content_area{padding-top:20px}
+.service_area {float:left;width:350;padding-right:10px}
+.service {
+  background: #f1f1f1 none repeat scroll 0 0;
+  display: block;
+  float: left;
+  margin-bottom: 10px;width:100%;border-radius:15px;border:1px solid#ddd
+}
+.service img{float: left;
+margin-top: 30px;
+padding: 20px;}
+.service p{padding:10px;font-size:10px;line-height:18px;}
+.contant{float:left;width:508px;background:#f1f1f1;border:1px solid #ddd;border-radius:15px;display:block}
+.contant h1{padding-top:25px;padding-left:30px;padding-right:30px;margin:0px;font-size:24px;font-weight:normal}
+.contant p {
+  font-family: verdana;
+  font-size: 10px;
+  margin: 0;
+  padding: 10px 30px 30px;
+  line-height: 18px;
+}
+.footer_area{overflow:hidden;float:left;weight:50%}
+.copyright{}
+.copyright p{}
+.designer{float:right;weight:50%}
+.designer p{}
