@@ -1,0 +1,130 @@
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    color: #787878;
+}
+a:hover { text-decoration: none }
+
+section.section-area {
+    padding: 90px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.section-title h2 span {
+    color: #26A65B;
+}
+
+.single-pricing-box {
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: center;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+h3 {}
+
+.single-pricing-box h3 {
+    text-transform: uppercase;
+}
+
+.pricing-icon {
+    font-size: 50px;
+    margin-bottom: 20px;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.pricing-icon img {
+    max-width: 70px;
+}
+
+.pricing-lists {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.pricing-lists ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 16px;
+    line-height: 30px;
+}
+.pricing-lists ul li:before {
+    font-family: fontAwesome;
+    content: "\f00c";
+    color: #31AA63;
+    padding-right: 5px;
+}
+
+.pricing-lists ul li.off:before {
+    content: "\f00d";
+    color: #F15050;
+
+}
+
+h3.pricing-coung {
+    text-transform: none;
+}
+
+a.borderd-btn {
+    display: inline-block;
+    border: 1px solid #26A65B;
+    padding: 10px 30px;
+    border-radius: 50px;
+    color: #707070;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.single-pricing-box:hover {
+    border-color: #359552;
+    box-shadow: 0 0 50px #f1f1f1;
+}
+a.borderd-btn:hover {
+    background: #26A65B;
+    color: #fff;
+}
+.single-pricing-box:hover .pricing-icon {
+    color: #359552;
+}
+.pricing-lists ul li {
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.pricing-lists ul li:hover {
+    padding-left: 5px;
+}
