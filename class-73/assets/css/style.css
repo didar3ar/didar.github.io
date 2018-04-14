@@ -1,0 +1,98 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.contact-wrapper-bg {background-image: url(../img/9.jpg);}
+.section-padding {
+    padding: 80px 0;
+}
+
+.contact-wrapper {
+    position: relative;
+    padding: 80px;
+    color: #fff;
+}
+
+.contact-wrapper-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80%;
+    content: "";
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+}
+
+.contact-wrapper .row {
+    z-index: 2;
+    position: relative;
+}
+
+.contact-wrapper-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #0176c0;
+    z-index:  -1;
+    opacity: .8;
+}
+
+.boxed-from {
+    background: #fff;
+    margin-left: 100px;
+    color: #333;
+    padding: 50px;
+    box-shadow: 0 0 4px #ccc;
+}
+
+.boxed-from input, .boxed-from textarea {
+    padding: 13px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.boxed-from textarea {
+    height: 120px;
+}
+
+.boxed-from input[type=submit] {
+    background: #1ed85f;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+}
