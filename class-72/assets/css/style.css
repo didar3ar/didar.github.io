@@ -865,6 +865,7 @@ textarea::-ms-input-placeholder
 .factorian-content-block {
     padding: 80px 50px;
     background: #f1f1f1;
+   margin-top: 100px;
 }
 
 .section-title {
